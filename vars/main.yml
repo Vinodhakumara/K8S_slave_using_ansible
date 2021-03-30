@@ -1,5 +1,4 @@
 ---
-# vars file for slave
 gpgkey: "https://packages.cloud.google.com/yum/doc/yum-key.gpg"
 softwares: 
    - "kubelet"
