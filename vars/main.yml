@@ -1,6 +1,6 @@
 ---
 gpgkey: "https://packages.cloud.google.com/yum/doc/yum-key.gpg"
-softwares: 
+softwares:
    - "kubelet"
    - "kubeadm"
    - "kubectl"
@@ -13,5 +13,3 @@ CreateFile:
    - "{{ dir[1] }}daemon.json"
    - "{{ dir[2] }}k8s.conf"
 ---
-
-
