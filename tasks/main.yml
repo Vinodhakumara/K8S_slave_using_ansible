@@ -61,7 +61,7 @@
   service:
      name: docker
      state:  restarted
-- name: "configuring ip tables..."
+- name: "configuring ip tables"
   blockinfile:
        path: "{{ CreateFile[1] }}"
        block: |
