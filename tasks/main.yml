@@ -74,4 +74,3 @@
   command: "{{ join_token.stdout }}"
   ignore_errors: yes
   changed_when: false
----

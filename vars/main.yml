@@ -12,4 +12,3 @@ dir:
 CreateFile:
    - "{{ dir[1] }}daemon.json"
    - "{{ dir[2] }}k8s.conf"
----
